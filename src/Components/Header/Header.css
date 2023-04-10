@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 1em;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #757575;
+    ;
+}
+
+.link:hover {
+    color: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+}
+
+.common-btn {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    color: #fff;
+}
