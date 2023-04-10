@@ -1,0 +1,11 @@
+.banner-img{
+    height: 500px; ;
+}
+.gradian-color{
+    color: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+}
+@media screen and (max-width:372px) {
+    .banner-img{
+        height: 300px;
+    }
+}

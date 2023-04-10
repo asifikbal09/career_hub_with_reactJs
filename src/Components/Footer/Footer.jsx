@@ -4,7 +4,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-   <div className=" bg-slate-900  absolute bottom-0">
+   <div className=" bg-slate-900">
      <div className="container p-9 grid gap-3 sm:grid-cols-1 md:grid-cols-6">
       <div className="col-span-2">
         <h3 className="text-3xl font-bold text-white">BoLesk</h3>

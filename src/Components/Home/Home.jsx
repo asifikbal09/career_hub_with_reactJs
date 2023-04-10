@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
-    <div className="relative h-full">
+    <div className="">
         <Header></Header>
       <Outlet></Outlet>
       <Footer></Footer>

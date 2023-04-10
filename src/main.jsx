@@ -4,16 +4,17 @@ import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Home from "./Components/Home/Home";
+import Main from "./Components/Main/Main";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
-    // children:[
-    //   {
-    //     path: '/',
-    //     element: <Home></Home>
-    //   },
+    children:[
+      {
+        path: '/',
+        element:<Main></Main>
+      },
     // //   {
     //     path: ,
     //     element:
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
     //     path: ,
     //     element:
     //   },
-    // ]
+    ]
   },
 ]);
 
