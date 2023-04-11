@@ -2,12 +2,12 @@ import React from "react";
 import "./Banner.css"
 const Banner = () => {
   return (
-    <div className="container md:flex items-center h-full p-8">
+    <div className="container md:flex items-center h-full p-8 bg-slate-200">
       <div>
-        <p className="text-8xl w-9/12 font-semibold leading-snug">
+        <p className="text-7xl md:w-9/12 font-semibold leading-snug">
           One Step Closer To Your <span className="text-violet-600">Dream Job</span>{" "}
         </p>
-        <p className="w-3/6 my-3 text-xl">
+        <p className="md:w-3/6 my-3 text-xl">
           
             Explore thousands of job opportunities with all the information you
             need. Its your future. Come find it. Manage all your job application
