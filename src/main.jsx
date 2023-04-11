@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Home from "./Components/Home/Home";
 import Main from "./Components/Main/Main";
+import Statistics from "./Components/Statistics/Statistics";
 
 const router = createBrowserRouter([
   {
@@ -15,10 +16,10 @@ const router = createBrowserRouter([
         path: '/',
         element:<Main></Main>
       },
-    // //   {
-    //     path: ,
-    //     element:
-    //   },
+      {
+        path: 'statistics' ,
+        element: <Statistics></Statistics>
+      }
     //   {
     //     path: ,
     //     element:
