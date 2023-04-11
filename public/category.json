@@ -1,0 +1,26 @@
+[
+    {
+      "id": "GHI003",
+      "logo": "https://scontent.fdac149-1.fna.fbcdn.net/v/t1.15752-9/337601251_757493335740435_6312275198008624844_n.png?stp=cp0_dst-png&_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFA26P3mCPmYv5Lp79jnf1oEIYdieTE8doQhh2J5MTx2lI3yIv0L6FeQRlY9xFKPlc1w2KSYQkgkchocNuOk9ft&_nc_ohc=514GvezFWW8AX-xtz0R&_nc_ht=scontent.fdac149-1.fna&oh=03_AdS6DcJXdWHJlHRNXBqoDWs2PVpqJhLWsrerqRhFXqctQA&oe=645CAF90",
+      "category_name": "Account & Finance",
+      "available_jobs": 150
+    },
+  {
+    "id": "ABC001",
+    "logo": "https://scontent.fdac149-1.fna.fbcdn.net/v/t1.15752-9/337538981_2289080864596474_6832146775895757146_n.png?stp=cp0_dst-png&_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeG02taO2RWOXlKQ-cUlpIVCyPDaxH3OaVDI8NrEfc5pUGJFRe9VagNgbhRaup4wrOInS2xE6H0UJsMpMbRvKCeC&_nc_ohc=PnpMQ5svI0MAX9v4G5H&_nc_ht=scontent.fdac149-1.fna&oh=03_AdQjcPFyumXu1lMtH3iqPNHajXNnt4UckaME4ptxWu9IiQ&oe=645CBF08",
+    "category_name": "Creative Design",
+    "available_jobs": 300
+  },
+  {
+    "id": "DEF002",
+    "logo": "https://scontent.fdac149-1.fna.fbcdn.net/v/t1.15752-9/339760603_190854467047735_4134170072428265351_n.png?stp=cp0_dst-png&_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGbAcNk5LziK5iLGASu8M4JkfPelFiT8FCR896UWJPwUG_0MAKTWeZLFOjz6ZyN-agl2FAM5Gyey1Qyg9Pw1BnC&_nc_ohc=4JKMgps4-gsAX-pfB1E&_nc_ht=scontent.fdac149-1.fna&oh=03_AdQnSwNkVgDv757M1Z1brEh2gOP9OgQwWtmfPGhVUdCfow&oe=645CC62B",
+    "category_name": "Marketing & Sales",
+    "available_jobs": 100
+  },
+  {
+    "id": "JKL004",
+    "logo": "https://scontent.fdac149-1.fna.fbcdn.net/v/t1.15752-9/337449408_632293632066233_7748301780338954439_n.png?stp=cp0_dst-png&_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEN5Q_Vlk9VbBancRwvLtlJd_0Ycjc9JNV3_RhyNz0k1To6CZ_uK4lisCxGgKI3MpnvsOg2Vj7G4pQqxGGOL4BB&_nc_ohc=Oy5eHIcmjU0AX_19rkG&_nc_ht=scontent.fdac149-1.fna&oh=03_AdSRX6Vjos8gXhVhC3KCMF2IqZI_FgjSQOYHGdEDrzlC_Q&oe=645CD02D",
+    "category_name": "Engineering Job",
+    "available_jobs": 324
+  }
+]
