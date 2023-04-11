@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1dFb7Z",
+    "jobTitle": "Front-End Web Developer",
+    "jobDescription": "Designs and develops the user interface and user experience of websites and web applications.",
+    "jobResponsibility": [
+      "Develops website and web application layouts and user interfaces using HTML, CSS, and JavaScript.",
+      "Collaborates with back-end developers to integrate front-end and back-end functionality.",
+      "Maintains and updates existing front-end code."
+    ],
+    "educationalRequirements": "Bachelor's degree in Computer Science, Web Design, or related field.",
+    "experiences": "3+ years of experience in front-end web development or related field.",
+    "companyName": "ABC Web Design",
+    "logo": "https://example.com/logo.png",
+    "salary": "50,000-70,000 USD",
+    "phone": "555-555-5555",
+    "email": "jobs@abcwebdesign.com",
+    "address": "789 Elm St, Anytown, USA",
+    "jobType": "Full-time",
+    "workPlace": "On-site"
+  },
+  {
+    "id": "U5H6J8K2",
+    "jobTitle": "Senior UX Designer",
+    "jobDescription": "Leads the design of user experiences for digital products and services.",
+    "jobResponsibility": [
+      "Conducts user research and creates user personas, user journeys, and wireframes.",
+      "Designs user interfaces and creates high-fidelity prototypes for testing.",
+      "Collaborates with developers to ensure design and usability requirements are met."
+    ],
+    "educationalRequirements": "Bachelor's or Master's degree in Design, Human-Computer Interaction, or related field.",
+    "experiences": "5+ years of experience in UX design or related field.",
+    "companyName": "UX Solutions",
+    "logo": "https://example.com/logo.png",
+    "salary": "80,000-120,000 USD",
+    "phone": "555-555-5555",
+    "email": "jobs@uxsolutions.com",
+    "address": "789 Oak St, Anytown, USA",
+    "jobType": "Full-time",
+    "workPlace": "On-site"
+  },
+  {
+    "id": "L9D2G4F8",
+    "jobTitle": "UX Designer",
+    "jobDescription": "Designs user experiences for digital products and services.",
+    "jobResponsibility": [
+      "Conducts user research and creates user personas, user journeys, and wireframes.",
+      "Designs user interfaces and creates prototypes for testing.",
+      "Collaborates with developers to ensure design and usability requirements are met."
+    ],
+    "educationalRequirements": "Bachelor's or Master's degree in Design, Human-Computer Interaction, or related field.",
+    "experiences": "2+ years of experience in UX design or related field.",
+    "companyName": "UX Innovations",
+    "logo": "https://example.com/logo.png",
+    "salary": "60,000-80,000 USD",
+    "phone": "555-555-5555",
+    "email": "jobs@uxinnovations.com",
+    "address": "321 Maple St, Anytown, USA",
+    "jobType": "Full-time",
+    "workPlace": "On-site"
+  },
+  {
+    "id": "9mNj6R",
+    "jobTitle": "SEO Specialist",
+    "jobDescription": "Develops and implements search engine optimization strategies to improve website search rankings.",
+    "jobResponsibility": [
+      "Conducts keyword research and creates content optimization strategies.",
+      "Collaborates with web developers to ensure website structure and content are optimized for search engines.",
+      "Monitors and analyzes website traffic and search rankings, and adjusts optimization strategies as needed."
+    ],
+    "educationalRequirements": "Bachelor's degree in Marketing, Communications, or related field.",
+    "experiences": "3+ years of experience in SEO or related field.",
+    "companyName": "SEO Pro",
+    "logo": "https://example.com/logo.png",
+    "salary": "60,000-80,000 USD",
+    "phone": "555-555-5555",
+    "email": "jobs@seopro.com",
+    "address": "123 Main St, Anytown, USA",
+    "jobType": "Full-time",
+    "workPlace": "On-site"
+  },
+  {
+    "id": "7kLp3T",
+    "jobTitle": "SEO Analyst",
+    "jobDescription": "Analyzes website search rankings and develops strategies to improve search engine optimization.",
+    "jobResponsibility": [
+      "Analyzes website traffic and search rankings, and identifies areas for improvement.",
+      "Conducts competitor analysis and develops strategies to improve website search rankings.",
+      "Collaborates with web developers to ensure website structure and content are optimized for search engines."
+    ],
+    "educationalRequirements": "Bachelor's degree in Marketing, Communications, or related field.",
+    "experiences": "2+ years of experience in SEO or related field.",
+    "companyName": "SEO Solutions",
+    "logo": "https://example.com/logo.png",
+    "salary": "50,000-70,000 USD",
+    "phone": "555-555-5555",
+    "email": "jobs@seosolutions.com",
+    "address": "456 Elm St, Anytown, USA",
+    "jobType": "Full-time",
+    "workPlace": "On-site"
+  },
+  {
+    "id": "4sRt8G",
+    "jobTitle": "Web Developer",
+    "jobDescription": "Designs and develops websites and web applications.",
+    "jobResponsibility": [
+      "Develops website and web application layouts and user interfaces.",
+      "Writes and tests website and web application code.",
+      "Maintains and updates existing websites and web applications."
+    ],
+    "educationalRequirements": "Bachelor's degree in Computer Science, Web Design, or related field.",
+    "experiences": "3+ years of experience in web development or related field.",
+    "companyName": "XYZ Web Solutions",
+    "logo": "https://example.com/logo.png",
+    "salary": "60,000-80,000 USD",
+    "phone": "555-555-5555",
+    "email": "jobs@xyzwebsolutions.com",
+    "address": "456 Main St, Anytown, USA",
+    "jobType": "Full-time",
+    "workPlace": "On-site"
+  }
+]
