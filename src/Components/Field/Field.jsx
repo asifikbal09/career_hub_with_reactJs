@@ -2,7 +2,6 @@ import React from "react";
 import "./Field.css";
 
 const Field = ({ field }) => {
-  console.log(field);
   const { name, logo, id, jobs } = field;
   return <div className="field">
     <img className="m-4" src={logo} alt="" />

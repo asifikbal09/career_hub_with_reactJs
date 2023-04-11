@@ -6,38 +6,41 @@ import "./index.css";
 import Home from "./Components/Home/Home";
 import Main from "./Components/Main/Main";
 import Statistics from "./Components/Statistics/Statistics";
+import Jobs from "./Components/Jobs/Jobs";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
-    children:[
+    children: [
       {
-        path: '/',
-        element:<Main></Main>
+        path: "/",
+        element: <Main></Main>,
+        loader: () => fetch("jobs.json"),
       },
       {
-        path: 'statistics' ,
-        element: <Statistics></Statistics>
-      }
-    //   {
-    //     path: ,
-    //     element:
-    //   },
-    //   {
-    //     path: ,
-    //     element:
-    //   },
-    //   {
-    //     path: ,
-    //     element:
-    //   },
-    ]
+        path: "statistics",
+        element: <Statistics></Statistics>,
+      },
+      // {
+      //   path:'/' ,
+      //   element:<Jobs></Jobs>,
+
+      // },
+      //   {
+      //     path: ,
+      //     element:
+      //   },
+      //   {
+      //     path: ,
+      //     element:
+      //   },
+    ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-   <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );

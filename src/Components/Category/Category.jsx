@@ -11,7 +11,6 @@ const Category = () => {
       .then((data) => setCategory(data));
   }, []);
 
-  console.log(category);
   return (
     <div className="container  my-16">
       <h3 className="text-5xl font-bold m-5 text-center">Jobs Category List</h3>
