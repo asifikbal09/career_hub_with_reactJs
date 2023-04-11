@@ -70,7 +70,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link className="btn">Start Applying</Link>
+          <Link className="common-btn">Start Applying</Link>
         </div>
       </div>
     </div>
