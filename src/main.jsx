@@ -7,11 +7,15 @@ import Home from "./Components/Home/Home";
 import Main from "./Components/Main/Main";
 import Statistics from "./Components/Statistics/Statistics";
 import Jobs from "./Components/Jobs/Jobs";
+import Details from "./Components/Details/Details";
+import jobDetails from "./Components/dainamicDetails/loadAndFindDetailsData";
+import Error from "./Components/Error/Error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+    errorElement:<Error></Error>,
     children: [
       {
         path: "/",
@@ -22,21 +26,25 @@ const router = createBrowserRouter([
         path: "statistics",
         element: <Statistics></Statistics>,
       },
-      // {
-      //   path:'/' ,
-      //   element:<Jobs></Jobs>,
+      {
+        path:'job-details/:id' ,
+        element:<Details></Details>,
+        loader:({params})=> jobDetails(params.id),
+        errorElement:<Error></Error>
+        
+        
 
-      // },
-      //   {
-      //     path: ,
-      //     element:
-      //   },
+      },
       //   {
       //     path: ,
       //     element:
       //   },
     ],
   },
+  {
+    path:"*",
+    element:<Error></Error>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

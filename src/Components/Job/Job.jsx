@@ -1,5 +1,7 @@
 import React from "react";
 import "./Job.css";
+import { Link } from "react-router-dom";
+import Details from "../Details/Details";
 
 const Job = ({ job }) => {
   const {
@@ -12,8 +14,13 @@ const Job = ({ job }) => {
     workPlace,
     jobType,
   } = job;
+
+const handleDetailsData = id =>{
+
+}
+
   return (
-    <div className="p-5  relative">
+    <div className="p-5">
       <img className="" src={logo} alt="" />
       <p className="text-xl font-bold">{jobTitle}</p>
       <p>{companyName}</p>
@@ -25,7 +32,11 @@ const Job = ({ job }) => {
         <small>{address}</small>
         <small>Salary: {salary}</small>
       </div>
-      <button className="common-btn absolute bottom-2">View Details</button>
+      <button className="common-btn">
+        <Link  className="text-white" to={`/job-details/${id}`}>
+          View Details
+        </Link>
+      </button>
     </div>
   );
 };
