@@ -30,7 +30,7 @@ const Jobs = ({ data }) => {
       <div className="flex justify-center m-10">
         {jobs.length === 4 ? (
           <button onClick={seeAllData} className={`common-btn`}>
-            See All
+            See All Jobs
           </button>
         ) : (
           <div></div>

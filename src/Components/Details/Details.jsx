@@ -1,10 +1,24 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
+import { ToastContainer , toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
+import { addToDb } from "../../utilities/fakedb";
 
 const Details = () => {
   const details = useLoaderData();
   const appliedTheJob = id =>{
-    
+    addToDb(id)
+
+    toast.success('Successfully Applied ', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        });
   }
   const {
     id,
@@ -45,6 +59,7 @@ const Details = () => {
         <p><span className="font-semibold">Email:</span> {email}</p>
         <p><span className="font-semibold">Address:</span> {address}</p>
         <button onClick={()=>appliedTheJob(id)} className="w-full my-5 common-btn">Apply</button>
+        <ToastContainer></ToastContainer>
       </div>
     </div>
    </div>

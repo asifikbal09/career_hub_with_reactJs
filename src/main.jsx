@@ -8,8 +8,9 @@ import Main from "./Components/Main/Main";
 import Statistics from "./Components/Statistics/Statistics";
 import Jobs from "./Components/Jobs/Jobs";
 import Details from "./Components/Details/Details";
-import jobDetails from "./Components/dainamicDetails/loadAndFindDetailsData";
+import  { appliedData,jobDetails } from "./Components/dainamicDetails/loadAndFindDetailsData";
 import Error from "./Components/Error/Error";
+import AppliedJobs from "./Components/AppliedJobs/AppliedJobs";
 
 const router = createBrowserRouter([
   {
@@ -35,10 +36,11 @@ const router = createBrowserRouter([
         
 
       },
-      //   {
-      //     path: ,
-      //     element:
-      //   },
+        {
+          path: 'applied-jobs',
+          element:<AppliedJobs></AppliedJobs>,
+          loader:appliedData
+        },
     ],
   },
   {
