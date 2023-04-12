@@ -1,6 +1,6 @@
 import React from 'react';
 import './AppliedJobs.css'
-import { getShoppingCart } from '../../utilities/fakedb';
+// import { getShoppingCart } from '../../utilities/fakedb';
 import { useLoaderData } from 'react-router-dom';
 import AppliedJob from '../AppliedJob/AppliedJob';
 

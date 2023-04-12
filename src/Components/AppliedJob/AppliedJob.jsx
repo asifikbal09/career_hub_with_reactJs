@@ -1,5 +1,6 @@
 import React from "react";
 import "./AppliedJob.css";
+import { Link } from "react-router-dom";
 
 const AppliedJob = ({ job }) => {
   const {
@@ -29,7 +30,9 @@ const AppliedJob = ({ job }) => {
         <small>Salary: {salary}</small>
       </div>
     </div>
-    <button className="common-btn">View Details</button>
+    <button className="common-btn"><Link  className="text-white" to={`/job-details/${id}`}>
+          View Details
+        </Link></button>
   </div>
   </div>;
 };
