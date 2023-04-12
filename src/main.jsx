@@ -11,6 +11,7 @@ import Details from "./Components/Details/Details";
 import  { appliedData,jobDetails } from "./Components/dainamicDetails/loadAndFindDetailsData";
 import Error from "./Components/Error/Error";
 import AppliedJobs from "./Components/AppliedJobs/AppliedJobs";
+import Blog from "./Components/Blog/Blog";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
           path: 'applied-jobs',
           element:<AppliedJobs></AppliedJobs>,
           loader:appliedData
+        },
+        {
+          path: 'blog',
+          element:<Blog></Blog>
         },
     ],
   },
